@@ -1,0 +1,27 @@
+﻿<form class="space-y-4" id="risk-form">
+  <div class="form-row">
+    <label>Sector</label>
+    <select name="sector" class="input">
+      <option value="">Select</option>
+      <option>Office/IT</option><option>Warehouse</option><option>Manufacturing</option>
+    </select>
+  </div>
+  <div class="form-row">
+    <label>Hazard description</label>
+    <textarea name="hazard" rows="2" class="input" placeholder="e.g., forklift collision"></textarea>
+  </div>
+  <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+    <div><label>Probability</label>
+      <select name="P" class="input">
+        <option value="">Select</option>
+        <option>Rare</option><option>Improbable</option><option>Possible</option><option>Probable</option><option>Very probable</option>
+      </select>
+    </div>
+    <div><label>Damage</label>
+      <select name="D" class="input">
+        <option value="">Select</option>
+        <option>Negligible</option><option>Minor</option><option>Moderate</option><option>Serious</option><option>Catastrophic</option>
+      </select>
+    </div>
+  </div>
+</form>
